@@ -1,0 +1,19 @@
+{
+  "name": "calendar-events-counter",
+  "version": "0.0.1",
+  "description": "",
+  "main": "lib/index.js",
+  "keywords": [],
+  "author": "Gustav Burchardt <gustav@gbur.dk>",
+  "license": "MIT",
+  "dependencies": {
+    "date-fns": "^2.16.1",
+    "fs-extra": "^9.0.1",
+    "humanize-duration": "^3.23.1",
+    "ical": "^0.8.0",
+    "node-fetch": "^2.6.0"
+  },
+  "bin": {
+    "calendar-counter": "bin/calendar-counter.js"
+  }
+}
