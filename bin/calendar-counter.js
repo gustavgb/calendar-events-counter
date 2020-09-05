@@ -66,13 +66,16 @@ fs.ensureFile(SETTINGS_PATH)
           ))
           .then(() => console.log('Name saved'))
         break
-      case undefined:
-        if (!settings.link || !settings.name) {
+      case '--name':
+      case undefined: {
+        const name = arg || settings.name
+        if (!settings.link || !name) {
           console.log('Setup not completed.\nRun --set-link and --set-name to set iCal link and event name.\nRun --help to learn more.')
           break
         }
-        countEvents(settings.link, settings.name)
+        countEvents(settings.link, name)
         break
+      }
       default:
         console.log('Unknown command.\nRun --help to learn more.')
         break

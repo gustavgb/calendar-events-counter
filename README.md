@@ -24,6 +24,8 @@ Built to count the hours of weekly planned work sessions.
 
 `calendar-counter`
 
+> Use the optional --name NAME flag to override the name setting temporarily.
+
 ## License
 
 See `LICENSE`. The project is distributed under the MIT license. Do as you please.
