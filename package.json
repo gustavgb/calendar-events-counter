@@ -11,7 +11,8 @@
     "fs-extra": "^9.0.1",
     "humanize-duration": "^3.23.1",
     "ical": "^0.8.0",
-    "node-fetch": "^2.6.0"
+    "node-fetch": "^2.6.0",
+    "node-flag": "^1.5.1"
   },
   "bin": {
     "calendar-counter": "bin/calendar-counter.js"

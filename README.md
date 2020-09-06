@@ -18,13 +18,15 @@ Built to count the hours of weekly planned work sessions.
 
 > Note that the event name only needs to match partially. "Work" will match: "Work from home", "work", "Work", "Work a lot".
 
-> Settings are saved to $HOME/.calendar-counter-settings/settings.json
+> Settings are saved to *$HOME/.calendar-counter-settings/settings.json*
 
 **Usage**
 
 `calendar-counter`
 
-> Use the optional --name NAME flag to override the name setting temporarily.
+> Use the optional `--name NAME` flag to override the name setting temporarily.
+
+> Use the optional `--forward WEEKS` and `--back WEEKS` flags to select other weeks.
 
 ## License
 
